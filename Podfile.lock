@@ -20,6 +20,13 @@ PODS:
     - NSString-HYPWordExtractor (~> 1.2)
     - NSString-ZENInflections (~> 1.2)
     - UIViewController-HYPKeyboardToolbar (~> 0.1)
+  - GoogleMaps (2.6.0):
+    - GoogleMaps/Maps (= 2.6.0)
+  - GoogleMaps/Base (2.6.0)
+  - GoogleMaps/Maps (2.6.0):
+    - GoogleMaps/Base
+  - GooglePlaces (2.6.0):
+    - GoogleMaps/Base (= 2.6.0)
   - HYP8601 (0.7.2)
   - HYPMathParser (0.4.1)
   - HYPNorwegianAccountNumber (1.2.1)
@@ -47,6 +54,8 @@ DEPENDENCIES:
   - ChameleonFramework/Swift
   - ClusterKit
   - Form
+  - GoogleMaps
+  - GooglePlaces
   - IBAnimatable
   - LNRSimpleNotifications
   - NVActivityIndicatorView
@@ -57,6 +66,8 @@ SPEC REPOS:
     - ChameleonFramework
     - ClusterKit
     - Form
+    - GoogleMaps
+    - GooglePlaces
     - HYP8601
     - HYPMathParser
     - HYPNorwegianAccountNumber
@@ -80,6 +91,8 @@ SPEC CHECKSUMS:
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
   ClusterKit: 52177be19bda5d9c09cb172e61842185268e6b5c
   Form: a2c50b00c4733e53cbb0b04a7aa6af4a8829f817
+  GoogleMaps: 42f91c68b7fa2f84d5c86597b18ceb99f5414c7f
+  GooglePlaces: f6ddf33b75cef69e888907d9947c57198ed845f3
   HYP8601: 0118757c1332620748c75e7218e7b6b849686d06
   HYPMathParser: 146a4981427a0b46cc9af823b210bfefdf0a7107
   HYPNorwegianAccountNumber: b0062d7419d217123dff0ef04f1931ed5f1e3bbf
@@ -99,6 +112,6 @@ SPEC CHECKSUMS:
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
   UIViewController-HYPKeyboardToolbar: d5cb85447caeaf9e0e7ed575ce3b1576c7d53dd8
 
-PODFILE CHECKSUM: bc438ca2c59dae905102bf742ce4a1ff5170c568
+PODFILE CHECKSUM: deb97200dda7f2d21f49dd37d561f8899d8f4737
 
 COCOAPODS: 1.5.0

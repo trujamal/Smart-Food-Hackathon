@@ -8,9 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomePageClass: UIViewController {
     
-    // Setting up 
+    // Setting up
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +22,6 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBOutlet weak var Testing: UIButton!
     
     
 
