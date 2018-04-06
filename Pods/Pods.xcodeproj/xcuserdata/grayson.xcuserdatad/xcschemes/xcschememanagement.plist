@@ -109,16 +109,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-RootTests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-RootUITests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>SwiftyJSON.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -142,11 +132,6 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>0EE5FF8D6A264E92280F2FB38D10FDD5</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>123F89F7E8DB3444EAD2F61E835952E2</key>
 		<dict>
 			<key>primary</key>
@@ -162,12 +147,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>31CD2D8F7852F5362994CD81A9A06B50</key>
+		<key>4FAA4F65A95D172F1BB7266AF3839142</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>5456BC4CD757946CE4070B99AE07B8A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>700D6817CBE7E1B9012EAC4FBD42D32F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -227,17 +217,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CCA9E22264CD598704FEEBDBFF86CF57</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>D9248CB4CC5BE9293974CD00584D5ED4</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>DC8F563CC132B2B52F47A682432EAB55</key>
 		<dict>
 			<key>primary</key>
 			<true/>

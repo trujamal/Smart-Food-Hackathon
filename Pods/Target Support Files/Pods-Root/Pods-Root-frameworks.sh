@@ -141,6 +141,53 @@ strip_invalid_archs() {
   STRIP_BINARY_RETVAL=1
 }
 
+
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ClusterKit/ClusterKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Form/Form.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HYP8601/HYP8601.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HYPMathParser/HYPMathParser.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HYPNorwegianAccountNumber/HYPNorwegianAccountNumber.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HYPNorwegianSSN/HYPNorwegianSSN.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/IBAnimatable/IBAnimatable.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/LNRSimpleNotifications/LNRSimpleNotifications.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/NSDictionary-ANDYSafeValue/NSDictionary_ANDYSafeValue.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/NSDictionary-HYPNestedAttributes/NSDictionary_HYPNestedAttributes.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/NSJSONSerialization-ANDYJSONFile/NSJSONSerialization_ANDYJSONFile.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/NSObject-HYPTesting/NSObject_HYPTesting.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/NSString-HYPContainsString/NSString_HYPContainsString.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/NSString-HYPFormula/NSString_HYPFormula.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/NSString-HYPRelationshipParser/NSString_HYPRelationshipParser.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/NSString-HYPWordExtractor/NSString_HYPWordExtractor.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/NSString-ZENInflections/NSString_ZENInflections.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/UIViewController-HYPKeyboardToolbar/UIViewController_HYPKeyboardToolbar.framework"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ClusterKit/ClusterKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Form/Form.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HYP8601/HYP8601.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HYPMathParser/HYPMathParser.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HYPNorwegianAccountNumber/HYPNorwegianAccountNumber.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HYPNorwegianSSN/HYPNorwegianSSN.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/IBAnimatable/IBAnimatable.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/LNRSimpleNotifications/LNRSimpleNotifications.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/NSDictionary-ANDYSafeValue/NSDictionary_ANDYSafeValue.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/NSDictionary-HYPNestedAttributes/NSDictionary_HYPNestedAttributes.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/NSJSONSerialization-ANDYJSONFile/NSJSONSerialization_ANDYJSONFile.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/NSObject-HYPTesting/NSObject_HYPTesting.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/NSString-HYPContainsString/NSString_HYPContainsString.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/NSString-HYPFormula/NSString_HYPFormula.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/NSString-HYPRelationshipParser/NSString_HYPRelationshipParser.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/NSString-HYPWordExtractor/NSString_HYPWordExtractor.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/NSString-ZENInflections/NSString_ZENInflections.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/UIViewController-HYPKeyboardToolbar/UIViewController_HYPKeyboardToolbar.framework"
+fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
 fi
