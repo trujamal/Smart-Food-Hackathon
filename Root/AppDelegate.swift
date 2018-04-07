@@ -19,6 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         GMSServices.provideAPIKey("AIzaSyAHaqvwL3F9opLHduS3fYIdh6rtSqtnr6A")
         GMSPlacesClient.provideAPIKey("AIzaSyAHaqvwL3F9opLHduS3fYIdh6rtSqtnr6A")
+        var prefersStatusBarHidden: Bool { false }
         
         return true
     }

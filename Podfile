@@ -3,13 +3,14 @@
 
 target 'Root' do
 use_frameworks!
-pod 'SwiftyJSON'
-pod 'ChameleonFramework/Swift'
-pod 'ClusterKit'
+
+
 pod 'GoogleMaps'
 pod 'IBAnimatable'
 pod 'NVActivityIndicatorView'
 pod 'Form'
 pod 'LNRSimpleNotifications'
 pod 'GooglePlaces'
+pod 'Charts'
+
 end

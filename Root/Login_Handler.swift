@@ -9,34 +9,8 @@
 import Foundation
 import UIKit
 
-class signUpScreen_1: UIViewController {
-    override func viewDidLoad() {
-        
-    }
-    
-    
-}
-
-
-class signUpScreen_2: UIViewController {
-    override func viewDidLoad() {
-        
-    }
-    
-    
-}
-
-
-class signUpScreen_3: UIViewController {
-    override func viewDidLoad() {
-        
-    }
-    
-    
-}
-
-
 class loginScreen: UIViewController {
+    
     override func viewDidLoad() {
         
     }
