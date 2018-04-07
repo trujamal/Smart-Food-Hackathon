@@ -16,27 +16,11 @@
 		5651B2802077FFA4005D1CB1 /* RootUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651B27F2077FFA4005D1CB1 /* RootUITests.swift */; };
 		5661A214207826A30099B865 /* FeedUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5661A213207826A30099B865 /* FeedUIView.swift */; };
 		5661A21620782A1E0099B865 /* Login_Handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5661A21520782A1E0099B865 /* Login_Handler.swift */; };
-		568A24A9207821E700D90F08 /* Form.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568A2492207821E700D90F08 /* Form.framework */; };
-		568A24AA207821E700D90F08 /* HYP8601.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568A2493207821E700D90F08 /* HYP8601.framework */; };
-		568A24AB207821E700D90F08 /* HYPMathParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568A2494207821E700D90F08 /* HYPMathParser.framework */; };
-		568A24AC207821E700D90F08 /* HYPNorwegianAccountNumber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568A2495207821E700D90F08 /* HYPNorwegianAccountNumber.framework */; };
-		568A24AD207821E700D90F08 /* HYPNorwegianSSN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568A2496207821E700D90F08 /* HYPNorwegianSSN.framework */; };
-		568A24AE207821E700D90F08 /* IBAnimatable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568A2497207821E700D90F08 /* IBAnimatable.framework */; };
-		568A24AF207821E700D90F08 /* LNRSimpleNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568A2498207821E700D90F08 /* LNRSimpleNotifications.framework */; };
-		568A24B0207821E700D90F08 /* NSDictionary_ANDYSafeValue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568A2499207821E700D90F08 /* NSDictionary_ANDYSafeValue.framework */; };
-		568A24B1207821E700D90F08 /* NSDictionary_HYPNestedAttributes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568A249A207821E700D90F08 /* NSDictionary_HYPNestedAttributes.framework */; };
-		568A24B2207821E700D90F08 /* NSJSONSerialization_ANDYJSONFile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568A249B207821E700D90F08 /* NSJSONSerialization_ANDYJSONFile.framework */; };
-		568A24B3207821E700D90F08 /* NSObject_HYPTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568A249C207821E700D90F08 /* NSObject_HYPTesting.framework */; };
-		568A24B4207821E700D90F08 /* NSString_HYPContainsString.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568A249D207821E700D90F08 /* NSString_HYPContainsString.framework */; };
-		568A24B5207821E700D90F08 /* NSString_HYPFormula.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568A249E207821E700D90F08 /* NSString_HYPFormula.framework */; };
-		568A24B6207821E700D90F08 /* NSString_HYPRelationshipParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568A249F207821E700D90F08 /* NSString_HYPRelationshipParser.framework */; };
-		568A24B7207821E700D90F08 /* NSString_HYPWordExtractor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568A24A0207821E700D90F08 /* NSString_HYPWordExtractor.framework */; };
-		568A24B8207821E700D90F08 /* NSString_ZENInflections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568A24A1207821E700D90F08 /* NSString_ZENInflections.framework */; };
-		568A24B9207821E700D90F08 /* NVActivityIndicatorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568A24A2207821E700D90F08 /* NVActivityIndicatorView.framework */; };
-		568A24BD207821E700D90F08 /* UIViewController_HYPKeyboardToolbar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568A24A6207821E700D90F08 /* UIViewController_HYPKeyboardToolbar.framework */; };
 		56AAE49C20781D9C0049CA6A /* Inventory_Management.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AAE49B20781D9C0049CA6A /* Inventory_Management.swift */; };
 		56AAE49E20781E260049CA6A /* Map_Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AAE49D20781E260049CA6A /* Map_Query.swift */; };
 		AF3628BE49EAF5B280AF14C1 /* Pods_Root.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B1285DD54B0C4EF0DC79E02 /* Pods_Root.framework */; };
+		CB5BB29B2078A8E200EBF03C /* TableViewCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5BB2992078A8E100EBF03C /* TableViewCells.swift */; };
+		CB5BB29C2078A8E200EBF03C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5BB29A2078A8E200EBF03C /* Extensions.swift */; };
 		CBC0486B2078460A00A4D1AC /* Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC0486A2078460A00A4D1AC /* Objects.swift */; };
 /* End PBXBuildFile section */
 
@@ -60,7 +44,7 @@
 /* Begin PBXFileReference section */
 		1B1285DD54B0C4EF0DC79E02 /* Pods_Root.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Root.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29A4CEE3BFC3BFE498A80F54 /* Pods_RootUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RootUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5651B25C2077FFA3005D1CB1 /* Root.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Root.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5651B25C2077FFA3005D1CB1 /* Patch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Patch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5651B25F2077FFA3005D1CB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5651B2612077FFA3005D1CB1 /* HomePageClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageClass.swift; sourceTree = "<group>"; };
 		5651B2642077FFA3005D1CB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -102,6 +86,10 @@
 		56AAE49D20781E260049CA6A /* Map_Query.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map_Query.swift; sourceTree = "<group>"; };
 		7022C2553E62E2CD8B7A9986 /* Pods-Root.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Root.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Root/Pods-Root.debug.xcconfig"; sourceTree = "<group>"; };
 		96144E29426F14A73A83A735 /* Pods_RootTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RootTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB471FC12078923A00244296 /* IBAnimatable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IBAnimatable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB5BB2972078A0AE00EBF03C /* IBAnimatable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IBAnimatable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB5BB2992078A8E100EBF03C /* TableViewCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCells.swift; sourceTree = "<group>"; };
+		CB5BB29A2078A8E200EBF03C /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		CBC0486A2078460A00A4D1AC /* Objects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Objects.swift; sourceTree = "<group>"; };
 		E9C31ED20A3C86D888018EB4 /* Pods-Root.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Root.release.xcconfig"; path = "Pods/Target Support Files/Pods-Root/Pods-Root.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,24 +99,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				568A24A9207821E700D90F08 /* Form.framework in Frameworks */,
-				568A24AA207821E700D90F08 /* HYP8601.framework in Frameworks */,
-				568A24AB207821E700D90F08 /* HYPMathParser.framework in Frameworks */,
-				568A24AC207821E700D90F08 /* HYPNorwegianAccountNumber.framework in Frameworks */,
-				568A24AD207821E700D90F08 /* HYPNorwegianSSN.framework in Frameworks */,
-				568A24AE207821E700D90F08 /* IBAnimatable.framework in Frameworks */,
-				568A24AF207821E700D90F08 /* LNRSimpleNotifications.framework in Frameworks */,
-				568A24B0207821E700D90F08 /* NSDictionary_ANDYSafeValue.framework in Frameworks */,
-				568A24B1207821E700D90F08 /* NSDictionary_HYPNestedAttributes.framework in Frameworks */,
-				568A24B2207821E700D90F08 /* NSJSONSerialization_ANDYJSONFile.framework in Frameworks */,
-				568A24B3207821E700D90F08 /* NSObject_HYPTesting.framework in Frameworks */,
-				568A24B4207821E700D90F08 /* NSString_HYPContainsString.framework in Frameworks */,
-				568A24B5207821E700D90F08 /* NSString_HYPFormula.framework in Frameworks */,
-				568A24B6207821E700D90F08 /* NSString_HYPRelationshipParser.framework in Frameworks */,
-				568A24B7207821E700D90F08 /* NSString_HYPWordExtractor.framework in Frameworks */,
-				568A24B8207821E700D90F08 /* NSString_ZENInflections.framework in Frameworks */,
-				568A24B9207821E700D90F08 /* NVActivityIndicatorView.framework in Frameworks */,
-				568A24BD207821E700D90F08 /* UIViewController_HYPKeyboardToolbar.framework in Frameworks */,
 				AF3628BE49EAF5B280AF14C1 /* Pods_Root.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,7 +135,7 @@
 		5651B25D2077FFA3005D1CB1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5651B25C2077FFA3005D1CB1 /* Root.app */,
+				5651B25C2077FFA3005D1CB1 /* Patch.app */,
 				5651B2702077FFA4005D1CB1 /* RootTests.xctest */,
 				5651B27B2077FFA4005D1CB1 /* RootUITests.xctest */,
 			);
@@ -175,6 +145,8 @@
 		5651B25E2077FFA3005D1CB1 /* Root */ = {
 			isa = PBXGroup;
 			children = (
+				CB5BB29A2078A8E200EBF03C /* Extensions.swift */,
+				CB5BB2992078A8E100EBF03C /* TableViewCells.swift */,
 				5651B25F2077FFA3005D1CB1 /* AppDelegate.swift */,
 				5651B2612077FFA3005D1CB1 /* HomePageClass.swift */,
 				5651B2632077FFA3005D1CB1 /* Main.storyboard */,
@@ -220,6 +192,8 @@
 		F6F58CFBC33969D4F0750204 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CB5BB2972078A0AE00EBF03C /* IBAnimatable.framework */,
+				CB471FC12078923A00244296 /* IBAnimatable.framework */,
 				568A2490207821E700D90F08 /* ChameleonFramework.framework */,
 				568A2491207821E700D90F08 /* ClusterKit.framework */,
 				568A2492207821E700D90F08 /* Form.framework */,
@@ -253,9 +227,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5651B25B2077FFA2005D1CB1 /* Root */ = {
+		5651B25B2077FFA2005D1CB1 /* Patch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5651B2842077FFA4005D1CB1 /* Build configuration list for PBXNativeTarget "Root" */;
+			buildConfigurationList = 5651B2842077FFA4005D1CB1 /* Build configuration list for PBXNativeTarget "Patch" */;
 			buildPhases = (
 				8C8717334B1A85727F58B6FF /* [CP] Check Pods Manifest.lock */,
 				5651B2582077FFA2005D1CB1 /* Sources */,
@@ -268,9 +242,9 @@
 			);
 			dependencies = (
 			);
-			name = Root;
+			name = Patch;
 			productName = Root;
-			productReference = 5651B25C2077FFA3005D1CB1 /* Root.app */;
+			productReference = 5651B25C2077FFA3005D1CB1 /* Patch.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5651B26F2077FFA4005D1CB1 /* RootTests */ = {
@@ -316,7 +290,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = therootproject;
 				TargetAttributes = {
 					5651B25B2077FFA2005D1CB1 = {
@@ -351,7 +325,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5651B25B2077FFA2005D1CB1 /* Root */,
+				5651B25B2077FFA2005D1CB1 /* Patch */,
 				5651B26F2077FFA4005D1CB1 /* RootTests */,
 				5651B27A2077FFA4005D1CB1 /* RootUITests */,
 			);
@@ -393,45 +367,15 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Root/Pods-Root-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Form/Form.framework",
-				"${BUILT_PRODUCTS_DIR}/HYP8601/HYP8601.framework",
-				"${BUILT_PRODUCTS_DIR}/HYPMathParser/HYPMathParser.framework",
-				"${BUILT_PRODUCTS_DIR}/HYPNorwegianAccountNumber/HYPNorwegianAccountNumber.framework",
-				"${BUILT_PRODUCTS_DIR}/HYPNorwegianSSN/HYPNorwegianSSN.framework",
 				"${BUILT_PRODUCTS_DIR}/IBAnimatable/IBAnimatable.framework",
 				"${BUILT_PRODUCTS_DIR}/LNRSimpleNotifications/LNRSimpleNotifications.framework",
-				"${BUILT_PRODUCTS_DIR}/NSDictionary-ANDYSafeValue/NSDictionary_ANDYSafeValue.framework",
-				"${BUILT_PRODUCTS_DIR}/NSDictionary-HYPNestedAttributes/NSDictionary_HYPNestedAttributes.framework",
-				"${BUILT_PRODUCTS_DIR}/NSJSONSerialization-ANDYJSONFile/NSJSONSerialization_ANDYJSONFile.framework",
-				"${BUILT_PRODUCTS_DIR}/NSObject-HYPTesting/NSObject_HYPTesting.framework",
-				"${BUILT_PRODUCTS_DIR}/NSString-HYPContainsString/NSString_HYPContainsString.framework",
-				"${BUILT_PRODUCTS_DIR}/NSString-HYPFormula/NSString_HYPFormula.framework",
-				"${BUILT_PRODUCTS_DIR}/NSString-HYPRelationshipParser/NSString_HYPRelationshipParser.framework",
-				"${BUILT_PRODUCTS_DIR}/NSString-HYPWordExtractor/NSString_HYPWordExtractor.framework",
-				"${BUILT_PRODUCTS_DIR}/NSString-ZENInflections/NSString_ZENInflections.framework",
 				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
-				"${BUILT_PRODUCTS_DIR}/UIViewController-HYPKeyboardToolbar/UIViewController_HYPKeyboardToolbar.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Form.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HYP8601.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HYPMathParser.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HYPNorwegianAccountNumber.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HYPNorwegianSSN.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IBAnimatable.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LNRSimpleNotifications.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSDictionary_ANDYSafeValue.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSDictionary_HYPNestedAttributes.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSJSONSerialization_ANDYJSONFile.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSObject_HYPTesting.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSString_HYPContainsString.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSString_HYPFormula.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSString_HYPRelationshipParser.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSString_HYPWordExtractor.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSString_ZENInflections.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIViewController_HYPKeyboardToolbar.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -484,10 +428,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5661A214207826A30099B865 /* FeedUIView.swift in Sources */,
+				CB5BB29C2078A8E200EBF03C /* Extensions.swift in Sources */,
 				5651B2622077FFA3005D1CB1 /* HomePageClass.swift in Sources */,
 				5661A21620782A1E0099B865 /* Login_Handler.swift in Sources */,
 				56AAE49E20781E260049CA6A /* Map_Query.swift in Sources */,
 				56AAE49C20781D9C0049CA6A /* Inventory_Management.swift in Sources */,
+				CB5BB29B2078A8E200EBF03C /* TableViewCells.swift in Sources */,
 				5651B2602077FFA3005D1CB1 /* AppDelegate.swift in Sources */,
 				CBC0486B2078460A00A4D1AC /* Objects.swift in Sources */,
 			);
@@ -514,12 +460,12 @@
 /* Begin PBXTargetDependency section */
 		5651B2722077FFA4005D1CB1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5651B25B2077FFA2005D1CB1 /* Root */;
+			target = 5651B25B2077FFA2005D1CB1 /* Patch */;
 			targetProxy = 5651B2712077FFA4005D1CB1 /* PBXContainerItemProxy */;
 		};
 		5651B27D2077FFA4005D1CB1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5651B25B2077FFA2005D1CB1 /* Root */;
+			target = 5651B25B2077FFA2005D1CB1 /* Patch */;
 			targetProxy = 5651B27C2077FFA4005D1CB1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -557,6 +503,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -564,6 +511,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -613,6 +561,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -620,6 +569,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -654,32 +604,10 @@
 			baseConfigurationReference = 7022C2553E62E2CD8B7A9986 /* Pods-Root.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 4ZZP22A3W8;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/ChameleonFramework",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/ClusterKit",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/Form",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/HYP8601",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/HYPMathParser",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/HYPNorwegianAccountNumber",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/HYPNorwegianSSN",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/IBAnimatable",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/LNRSimpleNotifications",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/NSDictionary-ANDYSafeValue",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/NSDictionary-HYPNestedAttributes",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/NSJSONSerialization-ANDYJSONFile",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/NSObject-HYPTesting",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/NSString-HYPContainsString",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/NSString-HYPFormula",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/NSString-HYPRelationshipParser",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/NSString-HYPWordExtractor",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/NSString-ZENInflections",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/NVActivityIndicatorView",
-					"$(PROJECT_DIR)/build/Debug-iphoneos",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/SwiftyJSON",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/UIViewController-HYPKeyboardToolbar",
-				);
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Root/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = therootproject.Root;
@@ -693,32 +621,10 @@
 			baseConfigurationReference = E9C31ED20A3C86D888018EB4 /* Pods-Root.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 4ZZP22A3W8;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/ChameleonFramework",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/ClusterKit",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/Form",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/HYP8601",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/HYPMathParser",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/HYPNorwegianAccountNumber",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/HYPNorwegianSSN",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/IBAnimatable",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/LNRSimpleNotifications",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/NSDictionary-ANDYSafeValue",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/NSDictionary-HYPNestedAttributes",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/NSJSONSerialization-ANDYJSONFile",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/NSObject-HYPTesting",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/NSString-HYPContainsString",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/NSString-HYPFormula",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/NSString-HYPRelationshipParser",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/NSString-HYPWordExtractor",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/NSString-ZENInflections",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/NVActivityIndicatorView",
-					"$(PROJECT_DIR)/build/Debug-iphoneos",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/SwiftyJSON",
-					"$(PROJECT_DIR)/build/Debug-iphoneos/UIViewController-HYPKeyboardToolbar",
-				);
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Root/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = therootproject.Root;
@@ -797,7 +703,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5651B2842077FFA4005D1CB1 /* Build configuration list for PBXNativeTarget "Root" */ = {
+		5651B2842077FFA4005D1CB1 /* Build configuration list for PBXNativeTarget "Patch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5651B2852077FFA4005D1CB1 /* Debug */,

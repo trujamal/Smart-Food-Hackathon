@@ -16,7 +16,7 @@ class HomePageClass: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        guard let gitUrl = URL(string: "http://serveraddress.com") else { return }
+        guard let gitUrl = URL(string: "https://thedeepend.herokuapp.com/api/gardens/?format=json") else { return }
 
         URLSession.shared.dataTask(with: gitUrl) { (data, response
             , error) in

@@ -7,7 +7,25 @@
 		<key>Root.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>20</integer>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5651B25B2077FFA2005D1CB1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5651B26F2077FFA4005D1CB1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5651B27A2077FFA4005D1CB1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
