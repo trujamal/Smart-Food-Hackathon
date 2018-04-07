@@ -19,10 +19,9 @@
 		5661A21620782A1E0099B865 /* Login_Handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5661A21520782A1E0099B865 /* Login_Handler.swift */; };
 		56AAE49C20781D9C0049CA6A /* Inventory_Management.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AAE49B20781D9C0049CA6A /* Inventory_Management.swift */; };
 		56AAE49E20781E260049CA6A /* Map_Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AAE49D20781E260049CA6A /* Map_Query.swift */; };
-		AF3628BE49EAF5B280AF14C1 /* Pods_Root.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B1285DD54B0C4EF0DC79E02 /* Pods_Root.framework */; };
+		76C69212207928EA008CBD85 /* Tablerviewfeeds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C69211207928EA008CBD85 /* Tablerviewfeeds.swift */; };
 		CB5BB29B2078A8E200EBF03C /* TableViewCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5BB2992078A8E100EBF03C /* TableViewCells.swift */; };
 		CB5BB29C2078A8E200EBF03C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5BB29A2078A8E200EBF03C /* Extensions.swift */; };
-		CBC0486B2078460A00A4D1AC /* Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC0486A2078460A00A4D1AC /* Objects.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +43,6 @@
 
 /* Begin PBXFileReference section */
 		007DE01F8D0CD8C3182A3AFC /* Pods_Patch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Patch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B1285DD54B0C4EF0DC79E02 /* Pods_Root.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Root.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		29A4CEE3BFC3BFE498A80F54 /* Pods_RootUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RootUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5651B25C2077FFA3005D1CB1 /* Patch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Patch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5651B25F2077FFA3005D1CB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5651B2612077FFA3005D1CB1 /* HomePageClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageClass.swift; sourceTree = "<group>"; };
@@ -61,40 +58,14 @@
 		5651B2812077FFA4005D1CB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5661A213207826A30099B865 /* FeedUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedUIView.swift; sourceTree = "<group>"; };
 		5661A21520782A1E0099B865 /* Login_Handler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login_Handler.swift; sourceTree = "<group>"; };
-		568A2490207821E700D90F08 /* ChameleonFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ChameleonFramework.framework; path = "Pods/../build/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework"; sourceTree = "<group>"; };
-		568A2491207821E700D90F08 /* ClusterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ClusterKit.framework; path = "Pods/../build/Debug-iphoneos/ClusterKit/ClusterKit.framework"; sourceTree = "<group>"; };
-		568A2492207821E700D90F08 /* Form.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Form.framework; path = "Pods/../build/Debug-iphoneos/Form/Form.framework"; sourceTree = "<group>"; };
-		568A2493207821E700D90F08 /* HYP8601.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HYP8601.framework; path = "Pods/../build/Debug-iphoneos/HYP8601/HYP8601.framework"; sourceTree = "<group>"; };
-		568A2494207821E700D90F08 /* HYPMathParser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HYPMathParser.framework; path = "Pods/../build/Debug-iphoneos/HYPMathParser/HYPMathParser.framework"; sourceTree = "<group>"; };
-		568A2495207821E700D90F08 /* HYPNorwegianAccountNumber.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HYPNorwegianAccountNumber.framework; path = "Pods/../build/Debug-iphoneos/HYPNorwegianAccountNumber/HYPNorwegianAccountNumber.framework"; sourceTree = "<group>"; };
-		568A2496207821E700D90F08 /* HYPNorwegianSSN.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HYPNorwegianSSN.framework; path = "Pods/../build/Debug-iphoneos/HYPNorwegianSSN/HYPNorwegianSSN.framework"; sourceTree = "<group>"; };
-		568A2497207821E700D90F08 /* IBAnimatable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBAnimatable.framework; path = "Pods/../build/Debug-iphoneos/IBAnimatable/IBAnimatable.framework"; sourceTree = "<group>"; };
-		568A2498207821E700D90F08 /* LNRSimpleNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LNRSimpleNotifications.framework; path = "Pods/../build/Debug-iphoneos/LNRSimpleNotifications/LNRSimpleNotifications.framework"; sourceTree = "<group>"; };
-		568A2499207821E700D90F08 /* NSDictionary_ANDYSafeValue.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NSDictionary_ANDYSafeValue.framework; path = "Pods/../build/Debug-iphoneos/NSDictionary-ANDYSafeValue/NSDictionary_ANDYSafeValue.framework"; sourceTree = "<group>"; };
-		568A249A207821E700D90F08 /* NSDictionary_HYPNestedAttributes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NSDictionary_HYPNestedAttributes.framework; path = "Pods/../build/Debug-iphoneos/NSDictionary-HYPNestedAttributes/NSDictionary_HYPNestedAttributes.framework"; sourceTree = "<group>"; };
-		568A249B207821E700D90F08 /* NSJSONSerialization_ANDYJSONFile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NSJSONSerialization_ANDYJSONFile.framework; path = "Pods/../build/Debug-iphoneos/NSJSONSerialization-ANDYJSONFile/NSJSONSerialization_ANDYJSONFile.framework"; sourceTree = "<group>"; };
-		568A249C207821E700D90F08 /* NSObject_HYPTesting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NSObject_HYPTesting.framework; path = "Pods/../build/Debug-iphoneos/NSObject-HYPTesting/NSObject_HYPTesting.framework"; sourceTree = "<group>"; };
-		568A249D207821E700D90F08 /* NSString_HYPContainsString.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NSString_HYPContainsString.framework; path = "Pods/../build/Debug-iphoneos/NSString-HYPContainsString/NSString_HYPContainsString.framework"; sourceTree = "<group>"; };
-		568A249E207821E700D90F08 /* NSString_HYPFormula.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NSString_HYPFormula.framework; path = "Pods/../build/Debug-iphoneos/NSString-HYPFormula/NSString_HYPFormula.framework"; sourceTree = "<group>"; };
-		568A249F207821E700D90F08 /* NSString_HYPRelationshipParser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NSString_HYPRelationshipParser.framework; path = "Pods/../build/Debug-iphoneos/NSString-HYPRelationshipParser/NSString_HYPRelationshipParser.framework"; sourceTree = "<group>"; };
-		568A24A0207821E700D90F08 /* NSString_HYPWordExtractor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NSString_HYPWordExtractor.framework; path = "Pods/../build/Debug-iphoneos/NSString-HYPWordExtractor/NSString_HYPWordExtractor.framework"; sourceTree = "<group>"; };
-		568A24A1207821E700D90F08 /* NSString_ZENInflections.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NSString_ZENInflections.framework; path = "Pods/../build/Debug-iphoneos/NSString-ZENInflections/NSString_ZENInflections.framework"; sourceTree = "<group>"; };
-		568A24A2207821E700D90F08 /* NVActivityIndicatorView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NVActivityIndicatorView.framework; path = "Pods/../build/Debug-iphoneos/NVActivityIndicatorView/NVActivityIndicatorView.framework"; sourceTree = "<group>"; };
-		568A24A3207821E700D90F08 /* Pods_RootTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_RootTests.framework; path = "Pods/../build/Debug-iphoneos/Pods_RootTests.framework"; sourceTree = "<group>"; };
-		568A24A4207821E700D90F08 /* Pods_RootUITests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_RootUITests.framework; path = "Pods/../build/Debug-iphoneos/Pods_RootUITests.framework"; sourceTree = "<group>"; };
-		568A24A5207821E700D90F08 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "Pods/../build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
-		568A24A6207821E700D90F08 /* UIViewController_HYPKeyboardToolbar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIViewController_HYPKeyboardToolbar.framework; path = "Pods/../build/Debug-iphoneos/UIViewController-HYPKeyboardToolbar/UIViewController_HYPKeyboardToolbar.framework"; sourceTree = "<group>"; };
 		56AAE49B20781D9C0049CA6A /* Inventory_Management.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inventory_Management.swift; sourceTree = "<group>"; };
 		56AAE49D20781E260049CA6A /* Map_Query.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map_Query.swift; sourceTree = "<group>"; };
 		7022C2553E62E2CD8B7A9986 /* Pods-Root.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Root.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Root/Pods-Root.debug.xcconfig"; sourceTree = "<group>"; };
-		96144E29426F14A73A83A735 /* Pods_RootTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RootTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76C69211207928EA008CBD85 /* Tablerviewfeeds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tablerviewfeeds.swift; sourceTree = "<group>"; };
 		A57F5EF1865A50263FE37B3B /* Pods-Patch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Patch.release.xcconfig"; path = "Pods/Target Support Files/Pods-Patch/Pods-Patch.release.xcconfig"; sourceTree = "<group>"; };
 		A653034FC4D041155CA83126 /* Pods-Patch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Patch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Patch/Pods-Patch.debug.xcconfig"; sourceTree = "<group>"; };
-		CB471FC12078923A00244296 /* IBAnimatable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IBAnimatable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB5BB2972078A0AE00EBF03C /* IBAnimatable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IBAnimatable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB5BB2992078A8E100EBF03C /* TableViewCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCells.swift; sourceTree = "<group>"; };
 		CB5BB29A2078A8E200EBF03C /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		CBC0486A2078460A00A4D1AC /* Objects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Objects.swift; sourceTree = "<group>"; };
 		E9C31ED20A3C86D888018EB4 /* Pods-Root.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Root.release.xcconfig"; path = "Pods/Target Support Files/Pods-Root/Pods-Root.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +74,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF3628BE49EAF5B280AF14C1 /* Pods_Root.framework in Frameworks */,
 				0468BD3F17AB1FC327AA59BA /* Pods_Patch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,6 +122,7 @@
 			children = (
 				CB5BB29A2078A8E200EBF03C /* Extensions.swift */,
 				CB5BB2992078A8E100EBF03C /* TableViewCells.swift */,
+				76C69211207928EA008CBD85 /* Tablerviewfeeds.swift */,
 				5651B25F2077FFA3005D1CB1 /* AppDelegate.swift */,
 				5651B2612077FFA3005D1CB1 /* HomePageClass.swift */,
 				5651B2632077FFA3005D1CB1 /* Main.storyboard */,
@@ -159,7 +130,6 @@
 				5661A213207826A30099B865 /* FeedUIView.swift */,
 				56AAE49B20781D9C0049CA6A /* Inventory_Management.swift */,
 				56AAE49D20781E260049CA6A /* Map_Query.swift */,
-				CBC0486A2078460A00A4D1AC /* Objects.swift */,
 				5651B2662077FFA3005D1CB1 /* Assets.xcassets */,
 				5651B2682077FFA3005D1CB1 /* LaunchScreen.storyboard */,
 				5651B26B2077FFA3005D1CB1 /* Info.plist */,
@@ -199,34 +169,6 @@
 		F6F58CFBC33969D4F0750204 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CB5BB2972078A0AE00EBF03C /* IBAnimatable.framework */,
-				CB471FC12078923A00244296 /* IBAnimatable.framework */,
-				568A2490207821E700D90F08 /* ChameleonFramework.framework */,
-				568A2491207821E700D90F08 /* ClusterKit.framework */,
-				568A2492207821E700D90F08 /* Form.framework */,
-				568A2493207821E700D90F08 /* HYP8601.framework */,
-				568A2494207821E700D90F08 /* HYPMathParser.framework */,
-				568A2495207821E700D90F08 /* HYPNorwegianAccountNumber.framework */,
-				568A2496207821E700D90F08 /* HYPNorwegianSSN.framework */,
-				568A2497207821E700D90F08 /* IBAnimatable.framework */,
-				568A2498207821E700D90F08 /* LNRSimpleNotifications.framework */,
-				568A2499207821E700D90F08 /* NSDictionary_ANDYSafeValue.framework */,
-				568A249A207821E700D90F08 /* NSDictionary_HYPNestedAttributes.framework */,
-				568A249B207821E700D90F08 /* NSJSONSerialization_ANDYJSONFile.framework */,
-				568A249C207821E700D90F08 /* NSObject_HYPTesting.framework */,
-				568A249D207821E700D90F08 /* NSString_HYPContainsString.framework */,
-				568A249E207821E700D90F08 /* NSString_HYPFormula.framework */,
-				568A249F207821E700D90F08 /* NSString_HYPRelationshipParser.framework */,
-				568A24A0207821E700D90F08 /* NSString_HYPWordExtractor.framework */,
-				568A24A1207821E700D90F08 /* NSString_ZENInflections.framework */,
-				568A24A2207821E700D90F08 /* NVActivityIndicatorView.framework */,
-				568A24A3207821E700D90F08 /* Pods_RootTests.framework */,
-				568A24A4207821E700D90F08 /* Pods_RootUITests.framework */,
-				568A24A5207821E700D90F08 /* SwiftyJSON.framework */,
-				568A24A6207821E700D90F08 /* UIViewController_HYPKeyboardToolbar.framework */,
-				1B1285DD54B0C4EF0DC79E02 /* Pods_Root.framework */,
-				96144E29426F14A73A83A735 /* Pods_RootTests.framework */,
-				29A4CEE3BFC3BFE498A80F54 /* Pods_RootUITests.framework */,
 				007DE01F8D0CD8C3182A3AFC /* Pods_Patch.framework */,
 			);
 			name = Frameworks;
@@ -439,13 +381,13 @@
 			files = (
 				5661A214207826A30099B865 /* FeedUIView.swift in Sources */,
 				CB5BB29C2078A8E200EBF03C /* Extensions.swift in Sources */,
+				76C69212207928EA008CBD85 /* Tablerviewfeeds.swift in Sources */,
 				5651B2622077FFA3005D1CB1 /* HomePageClass.swift in Sources */,
 				5661A21620782A1E0099B865 /* Login_Handler.swift in Sources */,
 				56AAE49E20781E260049CA6A /* Map_Query.swift in Sources */,
 				56AAE49C20781D9C0049CA6A /* Inventory_Management.swift in Sources */,
 				CB5BB29B2078A8E200EBF03C /* TableViewCells.swift in Sources */,
 				5651B2602077FFA3005D1CB1 /* AppDelegate.swift in Sources */,
-				CBC0486B2078460A00A4D1AC /* Objects.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
