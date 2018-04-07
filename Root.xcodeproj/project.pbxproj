@@ -16,8 +16,6 @@
 		5651B2802077FFA4005D1CB1 /* RootUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651B27F2077FFA4005D1CB1 /* RootUITests.swift */; };
 		5661A214207826A30099B865 /* FeedUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5661A213207826A30099B865 /* FeedUIView.swift */; };
 		5661A21620782A1E0099B865 /* Login_Handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5661A21520782A1E0099B865 /* Login_Handler.swift */; };
-		568A24A7207821E700D90F08 /* ChameleonFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568A2490207821E700D90F08 /* ChameleonFramework.framework */; };
-		568A24A8207821E700D90F08 /* ClusterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568A2491207821E700D90F08 /* ClusterKit.framework */; };
 		568A24A9207821E700D90F08 /* Form.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568A2492207821E700D90F08 /* Form.framework */; };
 		568A24AA207821E700D90F08 /* HYP8601.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568A2493207821E700D90F08 /* HYP8601.framework */; };
 		568A24AB207821E700D90F08 /* HYPMathParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568A2494207821E700D90F08 /* HYPMathParser.framework */; };
@@ -35,9 +33,6 @@
 		568A24B7207821E700D90F08 /* NSString_HYPWordExtractor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568A24A0207821E700D90F08 /* NSString_HYPWordExtractor.framework */; };
 		568A24B8207821E700D90F08 /* NSString_ZENInflections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568A24A1207821E700D90F08 /* NSString_ZENInflections.framework */; };
 		568A24B9207821E700D90F08 /* NVActivityIndicatorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568A24A2207821E700D90F08 /* NVActivityIndicatorView.framework */; };
-		568A24BA207821E700D90F08 /* Pods_RootTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568A24A3207821E700D90F08 /* Pods_RootTests.framework */; };
-		568A24BB207821E700D90F08 /* Pods_RootUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568A24A4207821E700D90F08 /* Pods_RootUITests.framework */; };
-		568A24BC207821E700D90F08 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568A24A5207821E700D90F08 /* SwiftyJSON.framework */; };
 		568A24BD207821E700D90F08 /* UIViewController_HYPKeyboardToolbar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568A24A6207821E700D90F08 /* UIViewController_HYPKeyboardToolbar.framework */; };
 		56AAE49C20781D9C0049CA6A /* Inventory_Management.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AAE49B20781D9C0049CA6A /* Inventory_Management.swift */; };
 		56AAE49E20781E260049CA6A /* Map_Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AAE49D20781E260049CA6A /* Map_Query.swift */; };
@@ -116,8 +111,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				568A24A7207821E700D90F08 /* ChameleonFramework.framework in Frameworks */,
-				568A24A8207821E700D90F08 /* ClusterKit.framework in Frameworks */,
 				568A24A9207821E700D90F08 /* Form.framework in Frameworks */,
 				568A24AA207821E700D90F08 /* HYP8601.framework in Frameworks */,
 				568A24AB207821E700D90F08 /* HYPMathParser.framework in Frameworks */,
@@ -135,9 +128,6 @@
 				568A24B7207821E700D90F08 /* NSString_HYPWordExtractor.framework in Frameworks */,
 				568A24B8207821E700D90F08 /* NSString_ZENInflections.framework in Frameworks */,
 				568A24B9207821E700D90F08 /* NVActivityIndicatorView.framework in Frameworks */,
-				568A24BA207821E700D90F08 /* Pods_RootTests.framework in Frameworks */,
-				568A24BB207821E700D90F08 /* Pods_RootUITests.framework in Frameworks */,
-				568A24BC207821E700D90F08 /* SwiftyJSON.framework in Frameworks */,
 				568A24BD207821E700D90F08 /* UIViewController_HYPKeyboardToolbar.framework in Frameworks */,
 				AF3628BE49EAF5B280AF14C1 /* Pods_Root.framework in Frameworks */,
 			);
@@ -403,7 +393,6 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Root/Pods-Root-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
 				"${BUILT_PRODUCTS_DIR}/Form/Form.framework",
 				"${BUILT_PRODUCTS_DIR}/HYP8601/HYP8601.framework",
 				"${BUILT_PRODUCTS_DIR}/HYPMathParser/HYPMathParser.framework",
@@ -425,7 +414,6 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Form.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HYP8601.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HYPMathParser.framework",

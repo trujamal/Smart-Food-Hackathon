@@ -34,13 +34,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Login" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MEZ-H7-kVH">
-                                <rect key="frame" x="166" y="281" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Zg-bB-8Kj">
                                 <rect key="frame" x="213" y="501" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -52,7 +45,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ggQ-yI-6tB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1249" y="124"/>
+            <point key="canvasLocation" x="-4431" y="-799"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="oFT-4v-tN4">
+            <objects>
+                <viewController id="oEE-Ao-3l7" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="w5a-Wg-KgQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="Rlu-CH-zZt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Yka-SZ-hud">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7y2-ZN-pzJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3660" y="-800"/>
         </scene>
         <!--Main Feed View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -90,7 +101,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-460" y="124"/>
+            <point key="canvasLocation" x="-1250" y="5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jDK-ti-k5M">
@@ -188,7 +199,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cai-it-73O" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="309.60000000000002" y="123.68815592203899"/>
+            <point key="canvasLocation" x="-1250" y="839"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="FQy-De-KFR">
@@ -216,7 +227,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zRo-8v-ipG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1052" y="124"/>
+            <point key="canvasLocation" x="-1250" y="1673"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="xfe-uf-B1f">
@@ -241,7 +252,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sad-Im-Aex" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1777" y="124"/>
+            <point key="canvasLocation" x="-508" y="1673"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="1cF-jG-SKa">
@@ -455,154 +466,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TXb-lz-QzL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="310" y="809"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="Tgk-yu-aX4">
-            <objects>
-                <viewController id="gO6-Kn-qeQ" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="GKL-fF-1hP"/>
-                        <viewControllerLayoutGuide type="bottom" id="1Aq-hC-HcN"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="H23-Io-7da">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fJZ-br-vWo" customClass="AnimatableView" customModule="IBAnimatable">
-                                <rect key="frame" x="16" y="28" width="343" height="455"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="produce_tomatos" translatesAutoresizingMaskIntoConstraints="NO" id="cam-eb-HzW">
-                                        <rect key="frame" x="0.0" y="94" width="343" height="266"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Jan Markeljc" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xaH-VF-W33">
-                                        <rect key="frame" x="8" y="8" width="217" height="32"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="23"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Avid Street Photographer in Austin tx" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ayE-Iu-hqV">
-                                        <rect key="frame" x="8" y="38" width="261" height="48"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="+" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B9Y-8z-7pV">
-                                        <rect key="frame" x="293" y="30" width="42" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Austin tx (32 mi away)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zTC-kf-ft3">
-                                        <rect key="frame" x="8" y="368" width="180" height="24"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TAGS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GWb-7K-LeT">
-                                        <rect key="frame" x="8" y="400" width="43" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
-                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
-                                        <real key="value" value="2"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
-                                        <real key="value" value="1"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
-                                        <point key="value" x="0.0" y="1"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nearby talent Collection view" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wLu-49-S5t">
-                                <rect key="frame" x="75" y="608" width="224" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gyU-5J-U8T" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <view contentMode="scaleToFill" id="TUE-5U-3QP" customClass="AnimatableView" customModule="IBAnimatable">
-                    <rect key="frame" x="0.0" y="0.0" width="343" height="455"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <subviews>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="stock6" translatesAutoresizingMaskIntoConstraints="NO" id="dHr-jF-aHo">
-                            <rect key="frame" x="0.0" y="94" width="343" height="266"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        </imageView>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Jan Markeljc" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hZw-su-9S0">
-                            <rect key="frame" x="8" y="8" width="217" height="32"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="23"/>
-                            <nil key="textColor"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Avid Street Photographer in Austin tx" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CXw-Ua-tSK">
-                            <rect key="frame" x="8" y="38" width="261" height="48"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                            <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="+" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zhb-cN-hgB">
-                            <rect key="frame" x="293" y="30" width="42" height="21"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                            <nil key="textColor"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Austin tx (32 mi away)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uh2-9l-D02">
-                            <rect key="frame" x="8" y="368" width="180" height="24"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                            <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TAGS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gz9-zq-i58">
-                            <rect key="frame" x="8" y="400" width="43" height="21"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                            <nil key="textColor"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                    </subviews>
-                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
-                            <color key="value" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
-                        </userDefinedRuntimeAttribute>
-                        <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
-                            <real key="value" value="2"/>
-                        </userDefinedRuntimeAttribute>
-                        <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
-                            <real key="value" value="1"/>
-                        </userDefinedRuntimeAttribute>
-                        <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
-                            <point key="value" x="0.0" y="1"/>
-                        </userDefinedRuntimeAttribute>
-                    </userDefinedRuntimeAttributes>
-                </view>
-            </objects>
-            <point key="canvasLocation" x="-1250" y="807"/>
+            <point key="canvasLocation" x="450" y="532"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="8SJ-Is-uXI">
@@ -747,12 +611,31 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MKz-63-OGc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-460" y="-799"/>
+            <point key="canvasLocation" x="-508" y="5"/>
         </scene>
-        <!--View Controller-->
+        <!--Activity-->
+        <scene sceneID="Cu0-Vu-OXg">
+            <objects>
+                <viewController title="Activity" id="6cC-ab-HWP" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sDe-pS-T5X"/>
+                        <viewControllerLayoutGuide type="bottom" id="3La-Fh-1Fl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tlz-5e-bzQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Activity" id="oOQ-kU-Fuc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t4K-Nh-Xty" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2825" y="5"/>
+        </scene>
+        <!--Profile-->
         <scene sceneID="gol-9D-ccD">
             <objects>
-                <viewController id="tJT-Uf-WbU" sceneMemberID="viewController">
+                <viewController title="Profile" id="tJT-Uf-WbU" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Blh-4K-dzR"/>
                         <viewControllerLayoutGuide type="bottom" id="C3K-XE-Fap"/>
@@ -762,10 +645,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Drop Off Items" id="w4l-0p-4NA"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LNV-Ow-qHk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2057" y="-799"/>
+            <point key="canvasLocation" x="-2071" y="5"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="l3F-3s-oen">
@@ -780,13 +664,15 @@
                         <color key="selectedImageTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
+                        <segue destination="tJT-Uf-WbU" kind="relationship" relationship="viewControllers" id="76O-3L-sFh"/>
+                        <segue destination="6cC-ab-HWP" kind="relationship" relationship="viewControllers" id="df3-tO-G57"/>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="dcP-t0-LrJ"/>
                         <segue destination="V9I-z1-oOh" kind="relationship" relationship="viewControllers" id="OJ1-Sv-Ew9"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7lm-ZS-9qv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1250" y="-799"/>
+            <point key="canvasLocation" x="-1250" y="-763"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="R6c-A7-Iq7">
@@ -906,7 +792,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VQp-qh-CvZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-508" y="808"/>
+            <point key="canvasLocation" x="-508" y="839"/>
         </scene>
     </scenes>
     <resources>
@@ -918,6 +804,5 @@
         <image name="produce_carrots" width="2500" height="1667"/>
         <image name="produce_peppers" width="3861" height="2574"/>
         <image name="produce_tomatos" width="3456" height="5184"/>
-        <image name="stock6" width="16" height="16"/>
     </resources>
 </document>

@@ -1,7 +1,4 @@
 PODS:
-  - Charts (3.1.1):
-    - Charts/Core (= 3.1.1)
-  - Charts/Core (3.1.1)
   - Form (3.13.0):
     - HYP8601 (~> 0.7.2)
     - HYPMathParser (~> 0.4.1)
@@ -47,7 +44,6 @@ PODS:
   - UIViewController-HYPKeyboardToolbar (0.1)
 
 DEPENDENCIES:
-  - Charts
   - Form
   - GoogleMaps
   - GooglePlaces
@@ -57,7 +53,6 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
-    - Charts
     - Form
     - GoogleMaps
     - GooglePlaces
@@ -80,7 +75,6 @@ SPEC REPOS:
     - UIViewController-HYPKeyboardToolbar
 
 SPEC CHECKSUMS:
-  Charts: 90a4d61da0f6e06684c591e3bcab11940fe61736
   Form: a2c50b00c4733e53cbb0b04a7aa6af4a8829f817
   GoogleMaps: 42f91c68b7fa2f84d5c86597b18ceb99f5414c7f
   GooglePlaces: f6ddf33b75cef69e888907d9947c57198ed845f3
@@ -102,6 +96,6 @@ SPEC CHECKSUMS:
   NVActivityIndicatorView: 60109b9bf46efc2e71ab81453196ccdfdfeea870
   UIViewController-HYPKeyboardToolbar: d5cb85447caeaf9e0e7ed575ce3b1576c7d53dd8
 
-PODFILE CHECKSUM: 9712e630a586d030512d8a89ab10cc031dd0cf04
+PODFILE CHECKSUM: 928f03f178eba900b881b857d5a5ad3a1df77fda
 
 COCOAPODS: 1.5.0
