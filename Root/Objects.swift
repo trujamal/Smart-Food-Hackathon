@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-struct JSONData: Codable {
+struct JSONData: Decodable {
     
     let name: String?
     let location: String?
@@ -47,7 +47,27 @@ struct JSONData: Codable {
     
 }
 
-
+fileprivate func fetchJSON() {
+    guard let urlString = URL(string: "https://thedeepend.herokuapp.com/api/gardens/?format=json") else { return }
+    URLSession.shared.dataTask(with: urlString) { (data,_ ,err ) in
+        DispatchQueue.main.async {
+            if let err = err {
+                print("failed to get data fro url:" , err)
+                return
+            }
+            
+            guard let data = data else {return}
+            
+            do {
+                let decoder = JSONDecoder()
+                self._ = try decoder.decode([JSONData].self, from: data) // IMPLEMENT LINE
+                self.tableView.reloadData()
+            } catch let jsonErr {
+                print("Failed to decode:", jsonErr)
+            }
+        }
+    }.resume()
+}
 
 /**
  Food Banks { Need to include options for claiming food)
