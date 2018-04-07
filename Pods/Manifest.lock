@@ -1,19 +1,5 @@
 PODS:
-  - Form (3.13.0):
-    - HYP8601 (~> 0.7.2)
-    - HYPMathParser (~> 0.4.1)
-    - HYPNorwegianAccountNumber (~> 1.2.1)
-    - HYPNorwegianSSN (~> 1.10.2)
-    - NSDictionary-ANDYSafeValue (~> 0.3)
-    - NSDictionary-HYPNestedAttributes (~> 0.4.1)
-    - NSJSONSerialization-ANDYJSONFile (~> 1.1)
-    - NSObject-HYPTesting (~> 1.2.1)
-    - NSString-HYPContainsString (~> 0.1)
-    - NSString-HYPFormula (~> 1.6.2)
-    - NSString-HYPRelationshipParser (~> 0.4.1)
-    - NSString-HYPWordExtractor (~> 1.2)
-    - NSString-ZENInflections (~> 1.2)
-    - UIViewController-HYPKeyboardToolbar (~> 0.1)
+  - DropDown (2.3.1)
   - GoogleMaps (2.6.0):
     - GoogleMaps/Maps (= 2.6.0)
   - GoogleMaps/Base (2.6.0)
@@ -21,30 +7,14 @@ PODS:
     - GoogleMaps/Base
   - GooglePlaces (2.6.0):
     - GoogleMaps/Base (= 2.6.0)
-  - HYP8601 (0.7.2)
-  - HYPMathParser (0.4.1)
-  - HYPNorwegianAccountNumber (1.2.1)
-  - HYPNorwegianSSN (1.10.2)
   - IBAnimatable (5.0.0)
   - LNRSimpleNotifications (0.8.0)
-  - NSDictionary-ANDYSafeValue (0.3.1)
-  - NSDictionary-HYPNestedAttributes (0.4.1):
-    - NSString-HYPRelationshipParser (~> 0.4.1)
-  - NSJSONSerialization-ANDYJSONFile (1.1)
-  - NSObject-HYPTesting (1.2.1)
-  - NSString-HYPContainsString (0.1)
-  - NSString-HYPFormula (1.6.2):
-    - NSString-HYPWordExtractor
-  - NSString-HYPRelationshipParser (0.4.1)
-  - NSString-HYPWordExtractor (1.2)
-  - NSString-ZENInflections (1.2)
   - NVActivityIndicatorView (4.1.1):
     - NVActivityIndicatorView/Presenter (= 4.1.1)
   - NVActivityIndicatorView/Presenter (4.1.1)
-  - UIViewController-HYPKeyboardToolbar (0.1)
 
 DEPENDENCIES:
-  - Form
+  - DropDown
   - GoogleMaps
   - GooglePlaces
   - IBAnimatable
@@ -53,49 +23,21 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
-    - Form
+    - DropDown
     - GoogleMaps
     - GooglePlaces
-    - HYP8601
-    - HYPMathParser
-    - HYPNorwegianAccountNumber
-    - HYPNorwegianSSN
     - IBAnimatable
     - LNRSimpleNotifications
-    - NSDictionary-ANDYSafeValue
-    - NSDictionary-HYPNestedAttributes
-    - NSJSONSerialization-ANDYJSONFile
-    - NSObject-HYPTesting
-    - NSString-HYPContainsString
-    - NSString-HYPFormula
-    - NSString-HYPRelationshipParser
-    - NSString-HYPWordExtractor
-    - NSString-ZENInflections
     - NVActivityIndicatorView
-    - UIViewController-HYPKeyboardToolbar
 
 SPEC CHECKSUMS:
-  Form: a2c50b00c4733e53cbb0b04a7aa6af4a8829f817
+  DropDown: 20499c7b2731b0d21609af924e47c7677a2be50d
   GoogleMaps: 42f91c68b7fa2f84d5c86597b18ceb99f5414c7f
   GooglePlaces: f6ddf33b75cef69e888907d9947c57198ed845f3
-  HYP8601: 0118757c1332620748c75e7218e7b6b849686d06
-  HYPMathParser: 146a4981427a0b46cc9af823b210bfefdf0a7107
-  HYPNorwegianAccountNumber: b0062d7419d217123dff0ef04f1931ed5f1e3bbf
-  HYPNorwegianSSN: 1eb54f1488ac24cdd7d0aee34e10d0f826c27fc1
   IBAnimatable: aa2286a9cf8fb4ae2e1be85c5287ae56143b024f
   LNRSimpleNotifications: ef042f804fea0ab9ac49692af6755f71db31b5e0
-  NSDictionary-ANDYSafeValue: 2d7adf339b6e302d71fec5f1d71ae00aacda993e
-  NSDictionary-HYPNestedAttributes: 783d3adcf9f8e9a554004ee225f1bc0cdf0cfdfe
-  NSJSONSerialization-ANDYJSONFile: 4a92ca174d5ccde13015e853e9eb62440459b478
-  NSObject-HYPTesting: 841d94a3ff4c697f84256f97c45829fc3b35a9fe
-  NSString-HYPContainsString: a8147bbb90b9aca02f69d12546b4d2938a5d01dc
-  NSString-HYPFormula: c1d166886afd1cfd139f24ab01bd63ad8f4cc360
-  NSString-HYPRelationshipParser: 7fa231131e408f26b3b72a41157aa6620a195b4d
-  NSString-HYPWordExtractor: 7484da8d2d23e41b24b0bdb218293ab349f9f650
-  NSString-ZENInflections: 35ae6d02981b1def07bd6dc8e6455e827453bc29
   NVActivityIndicatorView: 60109b9bf46efc2e71ab81453196ccdfdfeea870
-  UIViewController-HYPKeyboardToolbar: d5cb85447caeaf9e0e7ed575ce3b1576c7d53dd8
 
-PODFILE CHECKSUM: 928f03f178eba900b881b857d5a5ad3a1df77fda
+PODFILE CHECKSUM: 898c790a7403523247adaf49a5b9e0735f78dbc5
 
 COCOAPODS: 1.5.0

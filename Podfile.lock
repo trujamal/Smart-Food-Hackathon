@@ -1,4 +1,5 @@
 PODS:
+  - DropDown (2.3.1)
   - GoogleMaps (2.6.0):
     - GoogleMaps/Maps (= 2.6.0)
   - GoogleMaps/Base (2.6.0)
@@ -13,6 +14,7 @@ PODS:
   - NVActivityIndicatorView/Presenter (4.1.1)
 
 DEPENDENCIES:
+  - DropDown
   - GoogleMaps
   - GooglePlaces
   - IBAnimatable
@@ -21,6 +23,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - DropDown
     - GoogleMaps
     - GooglePlaces
     - IBAnimatable
@@ -28,12 +31,13 @@ SPEC REPOS:
     - NVActivityIndicatorView
 
 SPEC CHECKSUMS:
+  DropDown: 20499c7b2731b0d21609af924e47c7677a2be50d
   GoogleMaps: 42f91c68b7fa2f84d5c86597b18ceb99f5414c7f
   GooglePlaces: f6ddf33b75cef69e888907d9947c57198ed845f3
   IBAnimatable: aa2286a9cf8fb4ae2e1be85c5287ae56143b024f
   LNRSimpleNotifications: ef042f804fea0ab9ac49692af6755f71db31b5e0
   NVActivityIndicatorView: 60109b9bf46efc2e71ab81453196ccdfdfeea870
 
-PODFILE CHECKSUM: dcbe186bc804a17a54b05c5f80fc063b144fbf80
+PODFILE CHECKSUM: 898c790a7403523247adaf49a5b9e0735f78dbc5
 
 COCOAPODS: 1.5.0

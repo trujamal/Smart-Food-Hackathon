@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0468BD3F17AB1FC327AA59BA /* Pods_Patch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007DE01F8D0CD8C3182A3AFC /* Pods_Patch.framework */; };
 		5651B2602077FFA3005D1CB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651B25F2077FFA3005D1CB1 /* AppDelegate.swift */; };
 		5651B2622077FFA3005D1CB1 /* HomePageClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651B2612077FFA3005D1CB1 /* HomePageClass.swift */; };
 		5651B2652077FFA3005D1CB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5651B2632077FFA3005D1CB1 /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		007DE01F8D0CD8C3182A3AFC /* Pods_Patch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Patch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B1285DD54B0C4EF0DC79E02 /* Pods_Root.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Root.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29A4CEE3BFC3BFE498A80F54 /* Pods_RootUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RootUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5651B25C2077FFA3005D1CB1 /* Patch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Patch.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +88,8 @@
 		56AAE49D20781E260049CA6A /* Map_Query.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map_Query.swift; sourceTree = "<group>"; };
 		7022C2553E62E2CD8B7A9986 /* Pods-Root.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Root.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Root/Pods-Root.debug.xcconfig"; sourceTree = "<group>"; };
 		96144E29426F14A73A83A735 /* Pods_RootTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RootTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A57F5EF1865A50263FE37B3B /* Pods-Patch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Patch.release.xcconfig"; path = "Pods/Target Support Files/Pods-Patch/Pods-Patch.release.xcconfig"; sourceTree = "<group>"; };
+		A653034FC4D041155CA83126 /* Pods-Patch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Patch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Patch/Pods-Patch.debug.xcconfig"; sourceTree = "<group>"; };
 		CB471FC12078923A00244296 /* IBAnimatable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IBAnimatable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB5BB2972078A0AE00EBF03C /* IBAnimatable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IBAnimatable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB5BB2992078A8E100EBF03C /* TableViewCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCells.swift; sourceTree = "<group>"; };
@@ -100,6 +104,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF3628BE49EAF5B280AF14C1 /* Pods_Root.framework in Frameworks */,
+				0468BD3F17AB1FC327AA59BA /* Pods_Patch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +190,8 @@
 			children = (
 				7022C2553E62E2CD8B7A9986 /* Pods-Root.debug.xcconfig */,
 				E9C31ED20A3C86D888018EB4 /* Pods-Root.release.xcconfig */,
+				A653034FC4D041155CA83126 /* Pods-Patch.debug.xcconfig */,
+				A57F5EF1865A50263FE37B3B /* Pods-Patch.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -220,6 +227,7 @@
 				1B1285DD54B0C4EF0DC79E02 /* Pods_Root.framework */,
 				96144E29426F14A73A83A735 /* Pods_RootTests.framework */,
 				29A4CEE3BFC3BFE498A80F54 /* Pods_RootUITests.framework */,
+				007DE01F8D0CD8C3182A3AFC /* Pods_Patch.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -366,20 +374,22 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Root/Pods-Root-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-Patch/Pods-Patch-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
 				"${BUILT_PRODUCTS_DIR}/IBAnimatable/IBAnimatable.framework",
 				"${BUILT_PRODUCTS_DIR}/LNRSimpleNotifications/LNRSimpleNotifications.framework",
 				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IBAnimatable.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LNRSimpleNotifications.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Root/Pods-Root-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Patch/Pods-Patch-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8C8717334B1A85727F58B6FF /* [CP] Check Pods Manifest.lock */ = {
@@ -393,7 +403,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Root-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Patch-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -406,7 +416,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Root/Pods-Root-resources.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-Patch/Pods-Patch-resources.sh",
 				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
 				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
 			);
@@ -417,7 +427,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Root/Pods-Root-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Patch/Pods-Patch-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -601,7 +611,7 @@
 		};
 		5651B2852077FFA4005D1CB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7022C2553E62E2CD8B7A9986 /* Pods-Root.debug.xcconfig */;
+			baseConfigurationReference = A653034FC4D041155CA83126 /* Pods-Patch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -618,7 +628,7 @@
 		};
 		5651B2862077FFA4005D1CB1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9C31ED20A3C86D888018EB4 /* Pods-Root.release.xcconfig */;
+			baseConfigurationReference = A57F5EF1865A50263FE37B3B /* Pods-Patch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
