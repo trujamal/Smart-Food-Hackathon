@@ -11,6 +11,9 @@ import UIKit
 
 class loginScreen: UIViewController {
     
+    @IBAction func dsfsdgeds(_ sender: Any) {
+        performSegue(withIdentifier: "JOLY", sender: AnyObject.self)
+    }
     override func viewDidLoad() {
         
     }
